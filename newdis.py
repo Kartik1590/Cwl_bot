@@ -17,7 +17,7 @@ scope = ["https://spreadsheets.google.com/feeds","https://www.googleapis.com/aut
 cred=ServiceAccountCredentials.from_json_keyfile_name("creds.json",scope)
 clients=gspread.authorize(cred)
 sheet=clients.open("cwl_november_2021").sheet1
-token ='NzEzMjgzMjE3Nzg4MjM5ODgy.Xsd2ww.oiHgihLQwLCdAdCbYEyQHYBcSOQ'
+token ='token'
 
 month=datetime.datetime.now().strftime('%B')
 
